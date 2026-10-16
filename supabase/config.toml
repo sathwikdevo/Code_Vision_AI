@@ -1,0 +1,5 @@
+project_id = "codevision-ai"
+
+[functions.generate-lesson]
+verify_jwt = false
+entrypoint = "./functions/generate-lesson/index.ts"
